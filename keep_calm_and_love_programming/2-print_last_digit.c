@@ -1,4 +1,4 @@
-#include <stdio.h>
+void print_char(char);
 
 void print_last_digit(int n)
 {
@@ -8,5 +8,5 @@ void print_last_digit(int n)
 	n = n*(-1);
 	}
 	n = n % 10; 
-	printf("%d", n);	
+	print_char(n + 48);	
 }

@@ -1,4 +1,3 @@
-#include <string.h>
 int str_len(char *str)
 {
 

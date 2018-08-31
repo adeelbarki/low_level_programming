@@ -11,7 +11,7 @@ int main(void)
 	printf("%d\n", n);
 	n = string_to_integer("-402");
 	printf("%d\n", n);
-	n = string_to_integer("       -------++++++---------98");
+	n = string_to_integer("       ------++++++-----+++++--98");
 	printf("%d\n", n);
 	n = string_to_integer("2147483647");
 	printf("%d\n", n);

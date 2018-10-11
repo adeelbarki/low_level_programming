@@ -38,7 +38,7 @@
   
  Repo:
 
-    - GitHub repository: holbertonschool-low_level_programming
+    - GitHub repository: low_level_programming
     - Directory: 0x05-keep_calm_and_love_programming
     - File: 0-absolute.c
     
@@ -51,7 +51,7 @@
   
   Repo:
   
-    - GitHub repository: holbertonschool-low_level_programming
+    - GitHub repository: low_level_programming
     - Directory: keep_calm_and_love_programming
     - File: 1-uppercase.c
 
@@ -64,7 +64,7 @@
   
   Repo:
   
-    - GitHub repository: holbertonschool-low_level_programming
+    - GitHub repository: low_level_programming
     - Directory: 0x05-keep_calm_and_love_programming
     - File: 2-print_last_digit.c
     
@@ -82,9 +82,96 @@
   
   Repo:
   
-    - GitHub repository: holbertonschool-low_level_programming
+    - GitHub repository: low_level_programming
     - Directory: 0x05-keep_calm_and_love_programming
     - File: 3-print_to_98.c
     
  -----------------------------------------------------------------------------------------------------------
- ## 
+ ## 4. Inventing is a combination of brains and materials. The more brains you use, the less material you need
+ 
+  ### Write a function that prints - on one line - all possible combinations of two different digits.
+  
+  - Numbers must be separated by coma, followed by a space ,
+  - Numbers should be printed in ascending order
+  - 01 and 10 are considered as the same combination of the two digits 0 and 1
+  - Print only the smallest combination of two digits
+  - You are allowed to use the standard library
+  - Prototype: void print_combination_2(void);
+ 
+ Repo:
+ 
+    - GitHub repository: low_level_programming
+    - Directory: 0x05-keep_calm_and_love_programming
+    - File: 4-print_combination_2.c
+
+-------------------------------------------------------------------------------------------------------------
+## 5. Numbers have life; they're not just symbols on paper
+
+  ### Write a function that takes an integer in parameter and prints it.
+  
+  - Prototype: void print_number(int n);
+  
+ Repo:
+ 
+    - GitHub repository: low_level_programming
+    - Directory: 0x05-keep_calm_and_love_programming
+    - File: 5-print_number.c
+
+------------------------------------------------------------------------------------------------------------
+## 6. Guts are a combination of confidence, courage, conviction, strength of character, stick-to-itiveness, pugnaciousness, backbone, and intestinal fortitude. They are mandatory for anyone who wants to get to and stay at the top
+
+  ### Write a function that prints - on one line - all possible combinations of two two-digit numbers.
+  
+  - The numbers must be between 0 and 99
+  - The two numbers should be separated by a space
+  - All numbers should be printed with two digits. 1 should be printed as 01
+  - The combination of numbers must be separated by coma, followed by a space ,
+  - The combinations of numbers should be printed in ascending order
+  - Your 5-print_number.c file will be used to compile
+  - 00 01 and 01 00 are considered as the same combination of the numbers 0 and 1
+  - Prototype: void print_combination_4(void);
+ 
+ Repo:
+ 
+    - GitHub repository: low_level_programming
+    - Directory: 0x05-keep_calm_and_love_programming
+    - File: 6-print_combination_4.c
+ 
+ -----------------------------------------------------------------------------------------------------------
+ ## 7. Fizz-Buzz 
+ 
+  ### The “Fizz-Buzz test” is an interview question designed to help filter out the 99.5% of programming job candidates who can’t seem to program their way out of a wet paper bag. Write a program that prints the numbers from 1 to 100. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
+  
+  - The output should be one line only, without a new line at the end
+  - Each number or word should be separated by a space
+  - There should be no space at the end of the output
+  - You are allowed to use the standard library
+  - About the directory: Your files should be inside a folder called fizzbuzz, which is inside the folder 0x05-keep_calm_and_love_programming
+  - Your program will be compiled with the following command: gcc -Wall -Werror -Wextra -pedantic *.c
+ 
+Tips and links
+
+  - Arithmetic operators in C. Look for %
+ 
+ Repo:
+ 
+    - GitHub repository: low_level_programming
+    - Directory: 0x05-keep_calm_and_love_programming/fizzbuzz/  
+    
+------------------------------------------------------------------------------------------------------------------------
+## 8. Nature made the natural numbers; All else is the work of women 
+
+  ### If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Write a program that finds and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
+  
+  - Your file should contain a main function
+  - You are allowed to use the standard library
+  - Your program will be compiled with this command: gcc -Wall -Werror -Wextra -pedantic 8-natural.c -o natural
+
+  Repo:
+  
+    - GitHub repository: holbertonschool-low_level_programming
+    - Directory: 0x05-keep_calm_and_love_programming
+    - File: 8-natural.c
+    
+ -------------------------------------------------------------------------------------------------------------------------
+ 

@@ -30,9 +30,9 @@
   
   # Tasks
   --------------------------------------------------------------------------------------------------
-  0. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
+  ## 0. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
   
-  Write a function that returns the absolute value of an integer.
+  ### Write a function that returns the absolute value of an integer.
 
   - Prototype: int absolute(int);
   
@@ -43,17 +43,48 @@
     - File: 0-absolute.c
     
   -----------------------------------------------------------------------------------------------------
-  1. Age is a case of mind over matter. If you don't mind, it don't matter 
+  ## 1. Age is a case of mind over matter. If you don't mind, it don't matter 
   
-  Write a function that convert a letter to upper case, if possible.
+  ### Write a function that convert a letter to upper case, if possible.
 
   - Prototype: char uppercase(char);
   
   Repo:
   
-  - GitHub repository: holbertonschool-low_level_programming
-  - Directory: keep_calm_and_love_programming
-  - File: 1-uppercase.c
+    - GitHub repository: holbertonschool-low_level_programming
+    - Directory: keep_calm_and_love_programming
+    - File: 1-uppercase.c
 
+ -------------------------------------------------------------------------------------------------------
+  ## 2. There are only 3 colors, 10 digits, and 7 notes; its what we do with them that's important
+
+  ### Write a function that prints the last digit if an integer.
+
+  - Prototype: void print_last_digit(int);
   
+  Repo:
   
+    - GitHub repository: holbertonschool-low_level_programming
+    - Directory: 0x05-keep_calm_and_love_programming
+    - File: 2-print_last_digit.c
+    
+---------------------------------------------------------------------------------------------------------
+## 3. Holberton School, 98 Battery Street, San Francisco CA 94111
+
+  ### Write a function that takes an integer as argument, and prints - on one line - all numbers from its value to 98, followed by a new line.
+  
+  - Prototype: void print_to_98(int);
+  - Numbers must be separated by coma, followed by a space ,
+  - Numbers should be printed in order
+  - The first printed number should be the argument passed to your function
+  - The last printed number should be 98
+  - You are allowed to use the standard library
+  
+  Repo:
+  
+    - GitHub repository: holbertonschool-low_level_programming
+    - Directory: 0x05-keep_calm_and_love_programming
+    - File: 3-print_to_98.c
+    
+ -----------------------------------------------------------------------------------------------------------
+ ## 
